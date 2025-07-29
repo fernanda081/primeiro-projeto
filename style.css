@@ -1,0 +1,43 @@
+/* Fundo geral da página */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #f9f9f9, #e0f7fa);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Cartão centralizado com sombra */
+.card {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  border: 2px solid #00acc1;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+/* Título com destaque */
+h1 {
+  color: #00796b;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+/* Parágrafos informativos */
+p {
+  font-size: 20px;
+  color: #333333;
+  margin: 10px 0;
+  line-height: 1.5;
+}
